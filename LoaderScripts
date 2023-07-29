@@ -1,0 +1,11 @@
+if game.PlaceId == 5930525036 then -- Case Fortune
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImNotFatBitch/case-fortune/main/case-fortune"))()
+elseif game.PlaceId == 14087912623 then -- Conqueror Champions
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/ConquerorChampionss/main/ConquerorChampions'))()
+elseif game.PlaceId == 11430498851 then -- Building towers to fly farther world 1
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Buildingtowers/main/Buildingtowers'))()
+elseif game.PlaceId == 14175228555 then -- Building towers to fly farther world 2
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Buildingtowers/main/Buildingtowers'))()
+elseif game.PlaceId == 14185839068 then -- Building towers to fly farther world 3
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Buildingtowers/main/Buildingtowers'))()
+end
