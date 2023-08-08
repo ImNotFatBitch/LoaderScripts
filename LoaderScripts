@@ -8,6 +8,6 @@ elseif game.PlaceId == 14175228555 then -- Building towers to fly farther world 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Buildingtowers/main/Buildingtowers'))()
 elseif game.PlaceId == 14185839068 then -- Building towers to fly farther world 3
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Buildingtowers/main/Buildingtowers'))()
-elseif game.PlaceId == 14185839068 then -- Building towers to fly farther world 3
+elseif game.PlaceId == 286090429 then -- arsenal
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/arsenal./main/arsenal.'))()
 end
