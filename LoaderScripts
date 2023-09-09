@@ -16,6 +16,9 @@ elseif game.PlaceId == 14086581572 then -- Altitorture
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Altitorture/main/Altitorture'))()
 elseif game.PlaceId == 12851888521 then -- Punch-Wall-Simulator
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/pws/main/pws'))()
-elseif game.PlaceId == 13772394625 then -- Blade ballss
+elseif game.PlaceId == 13772394625 then -- Blade balls
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Bladeballs/main/Bladeballs'))()
+elseif game.PlaceId == 14732610803 then -- Blade balls pro server
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Bladeballs/main/Bladeballs'))()
 end
+
