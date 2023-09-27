@@ -22,5 +22,7 @@ elseif game.PlaceId == 14732610803 then -- Blade-Ball-Pro-Server
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Bladeballs/main/Bladeballs'))()
 elseif game.PlaceId == 142823291 then -- MM2
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/MM2/main/MM2'))()
+elseif game.PlaceId == 12355337193 then -- Murderers-VS-Sheriffs-Duels
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/MurderersSheriffsDuels/main/MurderersSheriffsDuels'))()
 end
 
