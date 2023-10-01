@@ -24,5 +24,7 @@ elseif game.PlaceId == 142823291 then -- MM2
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/MM2/main/MM2'))()
 elseif game.PlaceId == 12355337193 then -- Murderers-VS-Sheriffs-Duels
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/MurderersSheriffsDuels/main/MurderersSheriffsDuels'))()
+elseif game.PlaceId == 9872472334 then -- Evade
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Evade/main/Evade'))()
 end
 
