@@ -1,30 +1,28 @@
-if game.PlaceId == 5930525036 then -- Case Fortune
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImNotFatBitch/case-fortune/main/case-fortune"))()
-elseif game.PlaceId == 14087912623 then -- Conqueror Champions
-     loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/ConquerorChampionss/main/ConquerorChampions'))()
-elseif game.PlaceId == 11430498851 then -- Building towers to fly farther world 1
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Buildingtowers/main/Buildingtowers'))()
-elseif game.PlaceId == 14175228555 then -- Building towers to fly farther world 2
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Buildingtowers/main/Buildingtowers'))()
-elseif game.PlaceId == 14185839068 then -- Building towers to fly farther world 3
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Buildingtowers/main/Buildingtowers'))()
-elseif game.PlaceId == 11197867781 then -- Jackpot Empire
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/JackpotEmpire/main/JackpotEmpire'))()
-elseif game.PlaceId == 13230182363 then -- +1 Money Every Click
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/1moneyeveryclick/main/1moneyeveryclick'))()
-elseif game.PlaceId == 14086581572 then -- Altitorture
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Altitorture/main/Altitorture'))()
-elseif game.PlaceId == 12851888521 then -- Punch-Wall-Simulator
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/pws/main/pws'))()
-elseif game.PlaceId == 13772394625 then -- Blade balls
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Bladeballs/main/Bladeballs'))()
-elseif game.PlaceId == 14732610803 then -- Blade-Ball-Pro-Server
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Bladeballs/main/Bladeballs'))()
-elseif game.PlaceId == 142823291 then -- MM2
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/MM2/main/MM2'))()
-elseif game.PlaceId == 12355337193 then -- Murderers-VS-Sheriffs-Duels
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/MurderersSheriffsDuels/main/MurderersSheriffsDuels'))()
-elseif game.PlaceId == 9872472334 then -- Evade
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ImNotFatBitch/Evade/main/Evade'))()
-end
+local games = {
+    [5930525036] = 'https://raw.githubusercontent.com/ImNotFatBitch/case-fortune/main/case-fortune',
+    [14087912623] = 'https://raw.githubusercontent.com/ImNotFatBitch/ConquerorChampionss/main/ConquerorChampions',
+    [11430498851] = 'https://raw.githubusercontent.com/ImNotFatBitch/Buildingtowers/main/Buildingtowers',
+    [14175228555] = 'https://raw.githubusercontent.com/ImNotFatBitch/Buildingtowers/main/Buildingtowers',
+    [14185839068] = 'https://raw.githubusercontent.com/ImNotFatBitch/Buildingtowers/main/Buildingtowers',
+    [11197867781] = 'https://raw.githubusercontent.com/ImNotFatBitch/JackpotEmpire/main/JackpotEmpire',
+    [13230182363] = 'https://raw.githubusercontent.com/ImNotFatBitch/1moneyeveryclick/main/1moneyeveryclick',
+    [14086581572] = 'https://raw.githubusercontent.com/ImNotFatBitch/Altitorture/main/Altitorture',
+    [12851888521] = 'https://raw.githubusercontent.com/ImNotFatBitch/pws/main/pws',
+    [13772394625] = 'https://raw.githubusercontent.com/ImNotFatBitch/Bladeballs/main/Bladeballs',
+    [14732610803] = 'https://raw.githubusercontent.com/ImNotFatBitch/Bladeballs/main/Bladeballs',
+    [142823291] = 'https://raw.githubusercontent.com/ImNotFatBitch/MM2/main/MM2',
+    [12355337193] = 'https://raw.githubusercontent.com/ImNotFatBitch/MurderersSheriffsDuels/main/MurderersSheriffsDuels',
+    [9872472334] = 'https://raw.githubusercontent.com/ImNotFatBitch/Evade/main/Evade',
+    [14184086618] = 'https://raw.githubusercontent.com/ImNotFatBitch/ObbyBike/main/ObbyBike',
+    [14483937954] = 'https://raw.githubusercontent.com/ImNotFatBitch/ObbyBike/main/ObbyBike',
+    [14666799841] = 'https://raw.githubusercontent.com/ImNotFatBitch/ObbyBike/main/ObbyBike',
+    [14840620690] = 'https://raw.githubusercontent.com/ImNotFatBitch/ObbyBike/main/ObbyBike',
+    [14928421933] = 'https://raw.githubusercontent.com/ImNotFatBitch/ObbyBike/main/ObbyBike'
+}
 
+local currentPlaceId = game.PlaceId
+local gameUrl = games[currentPlaceId]
+
+if gameUrl then
+    loadstring(game:HttpGet(gameUrl))()
+end
