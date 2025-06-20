@@ -1,11 +1,10 @@
 local games = {
-    [111] = '',
-    [111] = ''
+    [116793284465110] = "https://pandadevelopment.net/virtual/file/08778f6bf4a0d49f",
 }
 
 local currentPlaceId = game.PlaceId
 local gameUrl = games[currentPlaceId]
 
-if gameUrl then
+if gameUrl and gameUrl ~= '' then
     loadstring(game:HttpGet(gameUrl))()
 end
