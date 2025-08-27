@@ -1,6 +1,6 @@
 local games = {
     [116793284465110] = "https://pandadevelopment.net/virtual/file/8935caec511b380c",
-    [301549746] = "https://pandadevelopment.net/virtual/file/51c72200f68f79db",
+    [301549746] = "https://pandadevelopment.net/virtual/file/af035cd6625245a9",
 }
 
 local currentPlaceId = game.PlaceId
