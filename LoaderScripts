@@ -1,11 +1,1 @@
-local games = {
-    [116793284465110] = "https://pandadevelopment.net/virtual/file/8935caec511b380c",
-    [301549746] = "https://pandadevelopment.net/virtual/file/af035cd6625245a9",
-}
-
-local currentPlaceId = game.PlaceId
-local gameUrl = games[currentPlaceId]
-
-if gameUrl and gameUrl ~= '' then
-    loadstring(game:HttpGet(gameUrl))()
-end
+loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/f46a7eb5a71f1048"))()
