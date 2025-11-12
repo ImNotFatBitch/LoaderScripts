@@ -1,3 +1,13 @@
 getgenv().skipload = true
+getgenv().AUTOLOAD = "Flick" -- only if the key is valid
 loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/f46a7eb5a71f1048"))()
 -- Discord: discord.gg/kqKdsN9hDP
+
+--[[
+	Game list for the autoload
+	- getgenv().AUTOLOAD = "Counter Blox"
+	- getgenv().AUTOLOAD = "Case Opening Simulator"
+	- getgenv().AUTOLOAD = "Frontlines"
+	- getgenv().AUTOLOAD = "Sniper Duels"
+	- getgenv().AUTOLOAD = "Flick"
+]]
