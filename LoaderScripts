@@ -2,6 +2,7 @@ getgenv().skipload = true
 getgenv().AUTOLOAD = nil -- only if the key is valid / Example : nil -> "Flick"
 loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/f46a7eb5a71f1048"))()
 -- Discord: discord.gg/kqKdsN9hDP
+-- don't work on xeno/solara
  
 --[[
 	Game list for the autoload
